@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * File is used for BundleOptionItemPagination module in Magento 2
+ * NA BundleOptionItemPagination
+ *
+ * @category BundleOptionItemPagination
+ * @package  NA
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Bundle\Ui\DataProvider\Product\Form\Modifier\BundlePanel">
+        <plugin name="na_bundle_option_item_pagination_limit" type="NA\BundleOptionItemPagination\Plugin\BundlePanelPlugin" sortOrder="10" />
+    </type>
+</config>
